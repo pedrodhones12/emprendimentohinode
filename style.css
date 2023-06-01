@@ -1,0 +1,36 @@
+.fundo{
+background-color: hsl(19, 49%, 58%);
+}
+.logo{
+  font-weight: 500;
+  font-size: 1rem;
+}
+.cabeçalho-link{
+  display: flex;
+  gap: 3rem;
+}
+
+.cabeçalho-link a{
+  color: #111;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.cabeçalho-link a:hover{
+  color: #c8815f;
+}
+.last-text{
+  text-align: center;
+  background-color: #555;
+  color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+
+
+
